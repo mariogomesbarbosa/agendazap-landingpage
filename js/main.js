@@ -162,8 +162,10 @@ $(document).ready(function () {
     $(window).scroll(function () {
         if ($(this).scrollTop() > 50) {
             $('#header').addClass('header-scrolled');
+            $('#nav-menu-container ul li a').addClass('item-menu-scrolled');
         } else {
             $('#header').removeClass('header-scrolled');
+            $('#nav-menu-container ul li a').removeClass('item-menu-scrolled');
         }
     });
 

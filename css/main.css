@@ -1637,7 +1637,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header-scrolled {
-  background: #32ed92;
+  background: #0CB864;
   transition: all 0.5s; }
 
 #logo a img {
@@ -1746,6 +1746,13 @@ h1, h2, h3, h4, h5, h6 {
   .nav-menu a:last-child a {
     margin-right: 0;
     padding-right: 0; 
+  }
+
+  .item-menu-scrolled {
+    color: white!important;
+  }
+  .item-menu-scrolled:hover {
+    color: #035737!important;
   }
 
 .nav-menu ul {
