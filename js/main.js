@@ -228,12 +228,12 @@ $(document).ready(function () {
                 576: {
                     items: 2
                 },
-                767: {
+                1199: {
                     items: 3
                 },
-                1199: {
-                    items: 4
-                }
+                // 1199: {
+                //     items: 4
+                // }
             }
         })
     }
