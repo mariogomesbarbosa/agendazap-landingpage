@@ -1637,11 +1637,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header-scrolled {
-  background: #0CB864;
+  background: #27CC96;
   transition: all 0.5s; }
 
-#logo a img {
+.logo-header {
   height: 40px;
+  width: 180px;
+  background-image: url(/img/logo-azap.svg);
+}
+
+.logo-scrolled {
+  background-image: url(/img/logo-azap-w.svg);
 }
 
 @media (max-width: 673px) {
