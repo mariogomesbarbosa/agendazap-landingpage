@@ -2276,6 +2276,13 @@ body.mobile-nav-active #mobile-nav-toggle {
     .list-desabled {
       opacity: 0.3;
     }
+    .end-sec ul li {
+      text-align: left;
+      margin-left: 2rem;
+    }
+    .end-sec ul li span {
+      margin-right: 1rem;
+    }
   .single-price .price-btn {
     background: #f9f9ff;
     color: #222222;
