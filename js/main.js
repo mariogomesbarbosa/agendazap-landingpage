@@ -41,7 +41,10 @@ $(document).ready(function () {
     });
 
     $('.single-price').tilt({
-        maxTilt: 9,
+        maxTilt: 5,
+    });
+    $('.single-price-disabled').tilt({
+        maxTilt: 2,
     });
 
 
