@@ -757,15 +757,44 @@ td, th {
   .primary-btn:focus {
     outline: none; }
   .primary-btn:hover {
-    background: transparent;
-    color: #46dbf9;
-    border-color: #46dbf9; }
+    box-shadow: #000;
+    /* background: transparent; */
+    /* color: #0EB170; */
+    /* border-color: #0EB170;  */
+  }
   .primary-btn.white {
     border: 1px solid #fff;
     color: #fff; }
     .primary-btn.white:hover {
       background: #fff;
-      color: #46dbf9; }
+      color: #0EB170; }
+
+    .secondary-btn {
+      background-color: #fff;
+      height: 50px;
+      line-height: 50px;
+      padding-left: 45px;
+      padding-right: 45px;
+      border-radius: 0px;
+      border: 1px solid #0EB170;
+      background-origin: border-box;
+      color: #0EB170;
+      display: inline-block;
+      font-size: 13px;
+      font-weight: 500;
+      position: relative;
+      -webkit-transition: all 0.3s ease 0s;
+      -moz-transition: all 0.3s ease 0s;
+      -o-transition: all 0.3s ease 0s;
+      transition: all 0.3s ease 0s;
+      cursor: pointer;
+      position: relative; }
+      .secondary-btn:focus {
+        outline: none; }
+      .secondary-btn:hover {
+        background-color: rgba(14, 177, 112, 0.2);
+        color: #0EB170;
+        border-color: #0EB170; }
 
 .white_bg_btn {
   display: inline-block;
