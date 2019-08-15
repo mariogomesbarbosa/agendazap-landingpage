@@ -2229,16 +2229,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   .pricing-area:after {
     content: "";
     position: absolute;
-    right: 16%;
+    left: 16%;
     bottom: 70px;
     z-index: -1;
     width: 340px;
     height: 340px;
-    background: linear-gradient(to bottom right, transparent 0%, transparent 50%, #69FC90 50%, #2BEB9E 100%);
-    background: -webkit-linear-gradient(to bottom right, transparent 0%, transparent 50%, #69FC90 50%, #2BEB9E 100%);
-    background: -moz-linear-gradient(to bottom right, transparent 0%, transparent 50%, #69FC90 50%, #2BEB9E 100%);
-    background: -ms-linear-gradient(to bottom right, transparent 0%, transparent 50%, #69FC90 50%, #2BEB9E 100%);
-    background: -o-linear-gradient(to bottom right, transparent 0%, transparent 50%, #69FC90 50%, #2BEB9E 100%); }
+    background: linear-gradient(to bottom left, transparent 0%, transparent 50%, #69FC90 50%, #2BEB9E 100%);
+    background: -webkit-linear-gradient(to bottom left, transparent 0%, transparent 50%, #69FC90 50%, #2BEB9E 100%);
+    background: -moz-linear-gradient(to bottom left, transparent 0%, transparent 50%, #69FC90 50%, #2BEB9E 100%);
+    background: -ms-linear-gradient(to bottom left, transparent 0%, transparent 50%, #69FC90 50%, #2BEB9E 100%);
+    background: -o-linear-gradient(to bottom left, transparent 0%, transparent 50%, #69FC90 50%, #2BEB9E 100%);  
+  }
     @media (max-width: 991px) {
       .pricing-area:after {
         display: none; } }
