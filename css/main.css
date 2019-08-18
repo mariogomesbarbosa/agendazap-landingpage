@@ -665,6 +665,7 @@ td, th {
   background: -webkit-linear-gradient(0deg, #0EB170 0%, #05E6A1 100%);
   background: -ms-linear-gradient(0deg, #0EB170 0%, #05E6A1 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent; }
 
 @media (max-width: 991px) {
@@ -747,7 +748,6 @@ td, th {
   display: flex!important;
 }
 
-}
 @media (max-width: 767px) {
   .comprar-plano {
     margin-right: 10rem; } 
