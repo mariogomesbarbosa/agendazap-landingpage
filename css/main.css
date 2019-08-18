@@ -2333,6 +2333,18 @@ body.mobile-nav-active #mobile-nav-toggle {
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s; }
+    @media (max-width: 425px) {
+      .top-right h1{
+        font-size: 30px;
+      }
+      .top-right h3{
+        font-size: 18px;
+      }
+      .top-right {
+        width: 130px;
+      }
+    }
+    
   .single-price-disabled .top-sec {
     border-bottom: 1px solid #eeeeee;
     padding: 40px 40px 22px 40px;
