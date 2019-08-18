@@ -776,10 +776,12 @@ td, th {
   .primary-btn:focus {
     outline: none; }
   .primary-btn:hover {
-    box-shadow: 5px 5px 20px 1px rgba(0, 0, 0, 0.2);
-    /* background: transparent; */
+    box-shadow: 5px 10px 20px 0px rgba(8, 153, 63, 0.6);
     color: #fff;
-    /* border-color: #0EB170;  */
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
   }
   .primary-btn.white {
     border: 1px solid #fff;
@@ -2112,6 +2114,13 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding: 40px 30px;
     text-align: center;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1); }
+  .single-feature:hover {
+    box-shadow: 0px 10px 30px 0px rgba(8, 153, 63, 0.5);
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
     @media (max-width: 991px) {
       .feature-area .single-feature {
         margin-bottom: 30px; } }
@@ -2288,11 +2297,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .single-price:hover {
   border: 2px solid rgba(7, 172, 117, 0.7); 
+  box-shadow: 0px 10px 30px 0px rgba(18, 153, 70, 0.267);
 }
 .single-price-disabled {
   background-color: #fff;
   text-align: center;
-  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.08); 
+  box-shadow: none;
   border: 1px solid rgb(240, 240, 240);
   height: 100%;
 }
