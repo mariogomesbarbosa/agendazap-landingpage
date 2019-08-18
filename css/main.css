@@ -2123,9 +2123,10 @@ body.mobile-nav-active #mobile-nav-toggle {
       font-size: 21px; }
     .feature-area .single-feature .title .lnr {
       color: #fff;
+      font-family: Roboto;
       font-weight: 600;
       font-size: 24px;
-      padding: 30px;
+      padding: 10px;
       display: inline-block;
       margin-bottom: 40px; }
     .feature-area .single-feature p {
@@ -2283,11 +2284,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color: #fff;
   text-align: center;
   box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.08); 
+  border: 2px solid rgba(7, 172, 117, 0.7); 
 }
 .single-price-disabled {
   background-color: #fff;
   text-align: center;
   box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.08); 
+  border: 1px solid rgb(240, 240, 240);
+  height: 100%;
 }
   @media (max-width: 991px) {
     .single-price {
@@ -2338,9 +2342,15 @@ body.mobile-nav-active #mobile-nav-toggle {
     }
     .single-price-disabled .end-sec ul li {
       margin-bottom: 10px; 
+      display: flex;
+      align-items: center;
     }
-    .list-desabled {
-      opacity: 0.3;
+    .red {
+      color: #FC5959;
+      text-decoration: none!important;
+    }
+    .green {
+      color: #07AC75;
     }
     .end-sec ul li {
       text-align: left;
@@ -2348,6 +2358,12 @@ body.mobile-nav-active #mobile-nav-toggle {
     }
     .end-sec ul li span {
       margin-right: 1rem;
+    }
+    .price-disabled {
+      /* text-decoration-line: line-through;
+      text-decoration-color: rgba(255, 0, 0, 0.377); */
+      /* opacity: 0.7; */
+      margin: 0;
     }
 
     
@@ -2552,6 +2568,27 @@ body.mobile-nav-active #mobile-nav-toggle {
 .blog-post-list .single-post {
   background: transparent;
   padding: 0px 30px; }
+
+.search-icon {
+  margin: 0 auto 10px auto;
+  height: 70px;
+  width: 70px;
+  background-image: url(/img/search-icon.svg);
+}
+
+.promotion-icon {
+  margin: 0 auto 10px auto;
+  height: 70px;
+  width: 70px;
+  background-image: url(/img/promotion-icon.svg);
+}
+
+.podium-icon {
+  margin: 0 auto 10px auto;
+  height: 70px;
+  width: 70px;
+  background-image: url(/img/podium-icon.svg);
+}
 
 .single-post {
   margin-bottom: 30px; }
@@ -3313,7 +3350,12 @@ body.mobile-nav-active #mobile-nav-toggle {
     .comments-area .btn-reply:hover {
       background-color: #222222;
       color: #fff; }
-
+.top-right h3{
+  font-weight: 400;
+  color:#BFBFBF;
+  text-decoration-line: line-through;
+  text-decoration-color: red;
+}
 .comment-form {
   background: #f9f9ff;
   text-align: center;
