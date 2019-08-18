@@ -2284,6 +2284,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color: #fff;
   text-align: center;
   box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.08); 
+  border: 1px solid rgb(240, 240, 240);
+}
+.single-price:hover {
   border: 2px solid rgba(7, 172, 117, 0.7); 
 }
 .single-price-disabled {
