@@ -616,10 +616,11 @@ td, th {
       padding: 70px 0; } }
 
 .section-gap-top {
-  padding-top: 150px; }
-  @media (max-width: 991px) {
+  padding-top: 100px; }
+  @media (max-width: 425px) {
     .section-gap-top {
-      padding-top: 70px; } }
+      padding-top: 30px; } }
+
 
 .section-gap-bottom {
   padding-bottom: 150px; }
