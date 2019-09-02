@@ -1700,16 +1700,16 @@ h1, h2, h3, h4, h5, h6 {
 .logo-header {
   height: 40px;
   width: 180px;
-  background-image: url(/img/logo-azap.svg);
+  background-image: url(/img/logo-azap.png);
 }
 @media (max-width: 673px) {
   .logo-header {
-    background-image: url(/img/logo-azap-w.svg);
+    background-image: url(/img/logo-azap-w.png);
   }
 }
 
 .logo-scrolled {
-  background-image: url(/img/logo-azap-w.svg);
+  background-image: url(/img/logo-azap-w.png);
 }
 
 @media (max-width: 673px) {
@@ -2654,21 +2654,21 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 auto 10px auto;
   height: 70px;
   width: 70px;
-  background-image: url(/img/search-icon.svg);
+  background-image: url(/img/search-icon.png);
 }
 
 .promotion-icon {
   margin: 0 auto 10px auto;
   height: 70px;
   width: 70px;
-  background-image: url(/img/promotion-icon.svg);
+  background-image: url(/img/promotion-icon.png);
 }
 
 .podium-icon {
   margin: 0 auto 10px auto;
   height: 70px;
   width: 70px;
-  background-image: url(/img/podium-icon.svg);
+  background-image: url(/img/podium-icon.png);
 }
 
 .single-post {
