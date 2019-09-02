@@ -2654,21 +2654,21 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 auto 10px auto;
   height: 70px;
   width: 70px;
-  background-image: url(/img/search-icon.svg);
+  background-image: url(../img/search-icon.svg);
 }
 
 .promotion-icon {
   margin: 0 auto 10px auto;
   height: 70px;
   width: 70px;
-  background-image: url(/img/promotion-icon.svg);
+  background-image: url(../img/promotion-icon.svg);
 }
 
 .podium-icon {
   margin: 0 auto 10px auto;
   height: 70px;
   width: 70px;
-  background-image: url(/img/podium-icon.svg);
+  background-image: url(../img/podium-icon.svg);
 }
 
 .single-post {
